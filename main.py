@@ -94,5 +94,4 @@ def run_query(query_id: int) -> str:
 
 # Run the server
 if __name__ == "__main__":
-    mcp.run(host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
-
+    mcp.run()
